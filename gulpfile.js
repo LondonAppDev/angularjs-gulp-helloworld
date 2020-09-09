@@ -5,8 +5,6 @@ const browserSync = require('browser-sync').create();
 const scripts = require('./scripts');
 const styles = require('./styles');
 
-// Some pointless comments for our project.
-
 var devMode = false;
 
 gulp.task('css', function() {
